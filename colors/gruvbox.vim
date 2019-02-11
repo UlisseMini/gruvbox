@@ -1236,8 +1236,10 @@ hi! link goConstants GruvboxPurple
 hi! link goDeclaration GruvboxRed
 hi! link goDeclType GruvboxBlue
 hi! link goBuiltins GruvboxOrange
-hi! link goFunctionCall GruvboxAqua
-hi! link goTypeName GruvboxOrange
+hi! link goFunctionCall GruvboxBlue
+
+" i don't like types being colored
+" hi! link goTypeName GruvboxOrange
 
 " }}}
 " Lua: {{{
